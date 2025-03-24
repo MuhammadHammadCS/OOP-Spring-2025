@@ -174,8 +174,8 @@ int main()
     P1 = &s1;
     P1->displayInfo();
     cout<<endl;
-    // Course c1;
-    // c1.registerStudent(&s1);
+    Course c1;
+    c1.registerStudent(&s1);
     Professor sir1("Sir Tariq","Pr22k-0051","DHA Phase 5",111223335,"tariq@nu.edu.pk","AI","Neural Network",8000);
     P1 = &sir1;
     P1->displayInfo();
